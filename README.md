@@ -1,4 +1,4 @@
-# bitly-api [![Build Status](https://secure.travis-ci.org/tobiaswright/bitly-api.png?branch=master)](http://travis-ci.org/tobiaswright/bitly-api)
+# bitly-node-api
 
 Node npm for bitly API
 
@@ -17,7 +17,7 @@ bitly.getAcessToken( client_id, client_secret, app_redirect_url, code, function(
 	//returns access_token
 })
 ```
-Please note, app_redirect_url should be the URL that is used in you bit.ly application.
+Please note, `app_redirect_url` should be the [URL](https://bitly.com/a/oauth_apps) that is used in you bit.ly application.
 
 ### Get Link History
 
